@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+  <title>HNG Intership - My Goals Display</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <h2>Nicole.</h2>
+    <a href="https://hng.tech/learn" data-testid="hngLink">Visit HNG Website</a>
+  </header>
+  <section class="main">
+    <div class="SlackFrame">
+      <img src="images/SlackProfilePicture.jpg" alt="Slack Profile Picture " data-testid="slackProfilePicture">
+      <p data-testid="slackDisplayName">Slack Name : Nicole</p>
+      <p data-testid="slackEmail">Slack Email : nnicole0509@gmail.com</p>
+    </div>
+    <div class="goalFrame">
+      <h3 data-testid="goalFrameTitle">My Goals</h3>
+      <p>By the end of the next two years I want to be able to:</p>
+      <ul data-testid="unorderedList">
+        <li data-testid="listItem1">Build a strong linkedIn account that showcases all my abilities, projects worked on and more</li>
+        <li data-testid="listItem2">Have a strong background in Front-End Development as well as Back-End Development</li>
+        <li data-testid="listItem3">Gain experience in the Tech industry in areas related to Full Stack Engineering</li>
+        <li data-testid="listItem4" >Work on at least one project idea that can be sold and make money</li>
+      </ul>
+    </div>
+  </section>
+  <footer>
+    <div data-testid="currentDay" id="currentDay"></div>
+    <div data-testid="currentDate" id="currentDate"></div>
+    <div data-testid="currentTimeUTC" id="currentTimeUTC"></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
